@@ -237,8 +237,7 @@ Partial Class Form1
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 19
         Me.PictureBox11.TabStop = False
-        Me.PictureBox11.Tag = "11"
-        Me.PictureBox11.Visible = False
+        Me.PictureBox11.Tag = "pictureBoxes"
         '
         'PictureBox12
         '
@@ -250,8 +249,7 @@ Partial Class Form1
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 18
         Me.PictureBox12.TabStop = False
-        Me.PictureBox12.Tag = "12"
-        Me.PictureBox12.Visible = False
+        Me.PictureBox12.Tag = "pictureBoxes"
         '
         'PictureBox13
         '
@@ -263,8 +261,7 @@ Partial Class Form1
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox13.TabIndex = 17
         Me.PictureBox13.TabStop = False
-        Me.PictureBox13.Tag = "13"
-        Me.PictureBox13.Visible = False
+        Me.PictureBox13.Tag = "pictureBoxes"
         '
         'PictureBox14
         '
@@ -276,8 +273,7 @@ Partial Class Form1
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox14.TabIndex = 16
         Me.PictureBox14.TabStop = False
-        Me.PictureBox14.Tag = "14"
-        Me.PictureBox14.Visible = False
+        Me.PictureBox14.Tag = "pictureBoxes"
         '
         'PictureBox15
         '
@@ -289,8 +285,7 @@ Partial Class Form1
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox15.TabIndex = 15
         Me.PictureBox15.TabStop = False
-        Me.PictureBox15.Tag = "15"
-        Me.PictureBox15.Visible = False
+        Me.PictureBox15.Tag = "pictureBoxes"
         '
         'PictureBox16
         '
@@ -302,8 +297,7 @@ Partial Class Form1
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox16.TabIndex = 14
         Me.PictureBox16.TabStop = False
-        Me.PictureBox16.Tag = "16"
-        Me.PictureBox16.Visible = False
+        Me.PictureBox16.Tag = "pictureBoxes"
         '
         'PictureBox17
         '
@@ -315,8 +309,7 @@ Partial Class Form1
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox17.TabIndex = 13
         Me.PictureBox17.TabStop = False
-        Me.PictureBox17.Tag = "17"
-        Me.PictureBox17.Visible = False
+        Me.PictureBox17.Tag = "pictureBoxes"
         '
         'PictureBox18
         '
@@ -328,8 +321,7 @@ Partial Class Form1
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox18.TabIndex = 12
         Me.PictureBox18.TabStop = False
-        Me.PictureBox18.Tag = "18"
-        Me.PictureBox18.Visible = False
+        Me.PictureBox18.Tag = "pictureBoxes"
         '
         'PictureBox19
         '
@@ -341,8 +333,7 @@ Partial Class Form1
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox19.TabIndex = 11
         Me.PictureBox19.TabStop = False
-        Me.PictureBox19.Tag = "19"
-        Me.PictureBox19.Visible = False
+        Me.PictureBox19.Tag = "pictureBoxes"
         '
         'PictureBox20
         '
@@ -354,8 +345,7 @@ Partial Class Form1
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox20.TabIndex = 10
         Me.PictureBox20.TabStop = False
-        Me.PictureBox20.Tag = "20"
-        Me.PictureBox20.Visible = False
+        Me.PictureBox20.Tag = "pictureBoxes"
         '
         'PictureBox21
         '
@@ -367,8 +357,7 @@ Partial Class Form1
         Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox21.TabIndex = 29
         Me.PictureBox21.TabStop = False
-        Me.PictureBox21.Tag = "21"
-        Me.PictureBox21.Visible = False
+        Me.PictureBox21.Tag = "pictureBoxes"
         '
         'PictureBox22
         '
@@ -380,8 +369,7 @@ Partial Class Form1
         Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox22.TabIndex = 28
         Me.PictureBox22.TabStop = False
-        Me.PictureBox22.Tag = "22"
-        Me.PictureBox22.Visible = False
+        Me.PictureBox22.Tag = "pictureBoxes"
         '
         'PictureBox23
         '
@@ -393,8 +381,7 @@ Partial Class Form1
         Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox23.TabIndex = 27
         Me.PictureBox23.TabStop = False
-        Me.PictureBox23.Tag = "23"
-        Me.PictureBox23.Visible = False
+        Me.PictureBox23.Tag = "pictureBoxes"
         '
         'PictureBox24
         '
@@ -406,8 +393,7 @@ Partial Class Form1
         Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox24.TabIndex = 26
         Me.PictureBox24.TabStop = False
-        Me.PictureBox24.Tag = "24"
-        Me.PictureBox24.Visible = False
+        Me.PictureBox24.Tag = "pictureBoxes"
         '
         'PictureBox25
         '
@@ -419,8 +405,7 @@ Partial Class Form1
         Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox25.TabIndex = 25
         Me.PictureBox25.TabStop = False
-        Me.PictureBox25.Tag = "25"
-        Me.PictureBox25.Visible = False
+        Me.PictureBox25.Tag = "pictureBoxes"
         '
         'PictureBox26
         '
@@ -432,8 +417,7 @@ Partial Class Form1
         Me.PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox26.TabIndex = 24
         Me.PictureBox26.TabStop = False
-        Me.PictureBox26.Tag = "26"
-        Me.PictureBox26.Visible = False
+        Me.PictureBox26.Tag = "pictureBoxes"
         '
         'PictureBox27
         '
@@ -445,8 +429,7 @@ Partial Class Form1
         Me.PictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox27.TabIndex = 23
         Me.PictureBox27.TabStop = False
-        Me.PictureBox27.Tag = "27"
-        Me.PictureBox27.Visible = False
+        Me.PictureBox27.Tag = "pictureBoxes"
         '
         'PictureBox28
         '
@@ -458,8 +441,7 @@ Partial Class Form1
         Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox28.TabIndex = 22
         Me.PictureBox28.TabStop = False
-        Me.PictureBox28.Tag = "28"
-        Me.PictureBox28.Visible = False
+        Me.PictureBox28.Tag = "pictureBoxes"
         '
         'PictureBox29
         '
@@ -471,8 +453,7 @@ Partial Class Form1
         Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox29.TabIndex = 21
         Me.PictureBox29.TabStop = False
-        Me.PictureBox29.Tag = "29"
-        Me.PictureBox29.Visible = False
+        Me.PictureBox29.Tag = "pictureBoxes"
         '
         'PictureBox30
         '
@@ -484,8 +465,7 @@ Partial Class Form1
         Me.PictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox30.TabIndex = 20
         Me.PictureBox30.TabStop = False
-        Me.PictureBox30.Tag = "30"
-        Me.PictureBox30.Visible = False
+        Me.PictureBox30.Tag = "pictureBoxes"
         '
         'PictureBox31
         '
@@ -497,8 +477,7 @@ Partial Class Form1
         Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox31.TabIndex = 39
         Me.PictureBox31.TabStop = False
-        Me.PictureBox31.Tag = "31"
-        Me.PictureBox31.Visible = False
+        Me.PictureBox31.Tag = "pictureBoxes"
         '
         'PictureBox32
         '
@@ -510,8 +489,7 @@ Partial Class Form1
         Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox32.TabIndex = 38
         Me.PictureBox32.TabStop = False
-        Me.PictureBox32.Tag = "32"
-        Me.PictureBox32.Visible = False
+        Me.PictureBox32.Tag = "pictureBoxes"
         '
         'PictureBox33
         '
@@ -523,8 +501,7 @@ Partial Class Form1
         Me.PictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox33.TabIndex = 37
         Me.PictureBox33.TabStop = False
-        Me.PictureBox33.Tag = "33"
-        Me.PictureBox33.Visible = False
+        Me.PictureBox33.Tag = "pictureBoxes"
         '
         'PictureBox34
         '
@@ -536,8 +513,7 @@ Partial Class Form1
         Me.PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox34.TabIndex = 36
         Me.PictureBox34.TabStop = False
-        Me.PictureBox34.Tag = "34"
-        Me.PictureBox34.Visible = False
+        Me.PictureBox34.Tag = "pictureBoxes"
         '
         'PictureBox35
         '
@@ -549,8 +525,7 @@ Partial Class Form1
         Me.PictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox35.TabIndex = 35
         Me.PictureBox35.TabStop = False
-        Me.PictureBox35.Tag = "35"
-        Me.PictureBox35.Visible = False
+        Me.PictureBox35.Tag = "pictureBoxes"
         '
         'PictureBox36
         '
@@ -562,8 +537,7 @@ Partial Class Form1
         Me.PictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox36.TabIndex = 34
         Me.PictureBox36.TabStop = False
-        Me.PictureBox36.Tag = "36"
-        Me.PictureBox36.Visible = False
+        Me.PictureBox36.Tag = "pictureBoxes"
         '
         'PictureBox37
         '
@@ -575,8 +549,7 @@ Partial Class Form1
         Me.PictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox37.TabIndex = 33
         Me.PictureBox37.TabStop = False
-        Me.PictureBox37.Tag = "37"
-        Me.PictureBox37.Visible = False
+        Me.PictureBox37.Tag = "pictureBoxes"
         '
         'PictureBox38
         '
@@ -588,8 +561,7 @@ Partial Class Form1
         Me.PictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox38.TabIndex = 32
         Me.PictureBox38.TabStop = False
-        Me.PictureBox38.Tag = "38"
-        Me.PictureBox38.Visible = False
+        Me.PictureBox38.Tag = "pictureBoxes"
         '
         'PictureBox39
         '
@@ -601,8 +573,7 @@ Partial Class Form1
         Me.PictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox39.TabIndex = 31
         Me.PictureBox39.TabStop = False
-        Me.PictureBox39.Tag = "39"
-        Me.PictureBox39.Visible = False
+        Me.PictureBox39.Tag = "pictureBoxes"
         '
         'PictureBox40
         '
@@ -614,8 +585,7 @@ Partial Class Form1
         Me.PictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox40.TabIndex = 30
         Me.PictureBox40.TabStop = False
-        Me.PictureBox40.Tag = "40"
-        Me.PictureBox40.Visible = False
+        Me.PictureBox40.Tag = "pictureBoxes"
         '
         'PictureBox41
         '
@@ -627,7 +597,7 @@ Partial Class Form1
         Me.PictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox41.TabIndex = 49
         Me.PictureBox41.TabStop = False
-        Me.PictureBox41.Visible = False
+        Me.PictureBox41.Tag = "pictureBoxes"
         '
         'PictureBox42
         '
@@ -639,7 +609,7 @@ Partial Class Form1
         Me.PictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox42.TabIndex = 48
         Me.PictureBox42.TabStop = False
-        Me.PictureBox42.Visible = False
+        Me.PictureBox42.Tag = "pictureBoxes"
         '
         'PictureBox43
         '
@@ -651,7 +621,7 @@ Partial Class Form1
         Me.PictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox43.TabIndex = 47
         Me.PictureBox43.TabStop = False
-        Me.PictureBox43.Visible = False
+        Me.PictureBox43.Tag = "pictureBoxes"
         '
         'PictureBox44
         '
@@ -663,7 +633,7 @@ Partial Class Form1
         Me.PictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox44.TabIndex = 46
         Me.PictureBox44.TabStop = False
-        Me.PictureBox44.Visible = False
+        Me.PictureBox44.Tag = "pictureBoxes"
         '
         'PictureBox45
         '
@@ -675,7 +645,7 @@ Partial Class Form1
         Me.PictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox45.TabIndex = 45
         Me.PictureBox45.TabStop = False
-        Me.PictureBox45.Visible = False
+        Me.PictureBox45.Tag = "pictureBoxes"
         '
         'PictureBox46
         '
@@ -687,7 +657,7 @@ Partial Class Form1
         Me.PictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox46.TabIndex = 44
         Me.PictureBox46.TabStop = False
-        Me.PictureBox46.Visible = False
+        Me.PictureBox46.Tag = "pictureBoxes"
         '
         'PictureBox47
         '
@@ -699,7 +669,7 @@ Partial Class Form1
         Me.PictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox47.TabIndex = 43
         Me.PictureBox47.TabStop = False
-        Me.PictureBox47.Visible = False
+        Me.PictureBox47.Tag = "pictureBoxes"
         '
         'PictureBox48
         '
@@ -711,7 +681,7 @@ Partial Class Form1
         Me.PictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox48.TabIndex = 42
         Me.PictureBox48.TabStop = False
-        Me.PictureBox48.Visible = False
+        Me.PictureBox48.Tag = "pictureBoxes"
         '
         'PictureBox49
         '
@@ -723,7 +693,7 @@ Partial Class Form1
         Me.PictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox49.TabIndex = 41
         Me.PictureBox49.TabStop = False
-        Me.PictureBox49.Visible = False
+        Me.PictureBox49.Tag = "pictureBoxes"
         '
         'PictureBox50
         '
@@ -735,7 +705,7 @@ Partial Class Form1
         Me.PictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox50.TabIndex = 40
         Me.PictureBox50.TabStop = False
-        Me.PictureBox50.Visible = False
+        Me.PictureBox50.Tag = "pictureBoxes"
         '
         'PictureBox51
         '
@@ -747,7 +717,7 @@ Partial Class Form1
         Me.PictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox51.TabIndex = 59
         Me.PictureBox51.TabStop = False
-        Me.PictureBox51.Visible = False
+        Me.PictureBox51.Tag = "pictureBoxes"
         '
         'PictureBox52
         '
@@ -759,7 +729,7 @@ Partial Class Form1
         Me.PictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox52.TabIndex = 58
         Me.PictureBox52.TabStop = False
-        Me.PictureBox52.Visible = False
+        Me.PictureBox52.Tag = "pictureBoxes"
         '
         'PictureBox53
         '
@@ -771,7 +741,7 @@ Partial Class Form1
         Me.PictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox53.TabIndex = 57
         Me.PictureBox53.TabStop = False
-        Me.PictureBox53.Visible = False
+        Me.PictureBox53.Tag = "pictureBoxes"
         '
         'PictureBox54
         '
@@ -783,7 +753,7 @@ Partial Class Form1
         Me.PictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox54.TabIndex = 56
         Me.PictureBox54.TabStop = False
-        Me.PictureBox54.Visible = False
+        Me.PictureBox54.Tag = "pictureBoxes"
         '
         'PictureBox55
         '
@@ -795,7 +765,7 @@ Partial Class Form1
         Me.PictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox55.TabIndex = 55
         Me.PictureBox55.TabStop = False
-        Me.PictureBox55.Visible = False
+        Me.PictureBox55.Tag = "pictureBoxes"
         '
         'PictureBox56
         '
@@ -807,7 +777,7 @@ Partial Class Form1
         Me.PictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox56.TabIndex = 54
         Me.PictureBox56.TabStop = False
-        Me.PictureBox56.Visible = False
+        Me.PictureBox56.Tag = "pictureBoxes"
         '
         'PictureBox57
         '
@@ -819,7 +789,7 @@ Partial Class Form1
         Me.PictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox57.TabIndex = 53
         Me.PictureBox57.TabStop = False
-        Me.PictureBox57.Visible = False
+        Me.PictureBox57.Tag = "pictureBoxes"
         '
         'PictureBox58
         '
@@ -831,7 +801,7 @@ Partial Class Form1
         Me.PictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox58.TabIndex = 52
         Me.PictureBox58.TabStop = False
-        Me.PictureBox58.Visible = False
+        Me.PictureBox58.Tag = "pictureBoxes"
         '
         'PictureBox59
         '
@@ -843,7 +813,7 @@ Partial Class Form1
         Me.PictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox59.TabIndex = 51
         Me.PictureBox59.TabStop = False
-        Me.PictureBox59.Visible = False
+        Me.PictureBox59.Tag = "pictureBoxes"
         '
         'PictureBox60
         '
@@ -855,7 +825,7 @@ Partial Class Form1
         Me.PictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox60.TabIndex = 50
         Me.PictureBox60.TabStop = False
-        Me.PictureBox60.Visible = False
+        Me.PictureBox60.Tag = "pictureBoxes"
         '
         'PictureBox61
         '
@@ -867,7 +837,7 @@ Partial Class Form1
         Me.PictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox61.TabIndex = 69
         Me.PictureBox61.TabStop = False
-        Me.PictureBox61.Visible = False
+        Me.PictureBox61.Tag = "pictureBoxes"
         '
         'PictureBox62
         '
@@ -879,7 +849,7 @@ Partial Class Form1
         Me.PictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox62.TabIndex = 68
         Me.PictureBox62.TabStop = False
-        Me.PictureBox62.Visible = False
+        Me.PictureBox62.Tag = "pictureBoxes"
         '
         'PictureBox63
         '
@@ -891,7 +861,7 @@ Partial Class Form1
         Me.PictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox63.TabIndex = 67
         Me.PictureBox63.TabStop = False
-        Me.PictureBox63.Visible = False
+        Me.PictureBox63.Tag = "pictureBoxes"
         '
         'PictureBox64
         '
@@ -903,7 +873,7 @@ Partial Class Form1
         Me.PictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox64.TabIndex = 66
         Me.PictureBox64.TabStop = False
-        Me.PictureBox64.Visible = False
+        Me.PictureBox64.Tag = "pictureBoxes"
         '
         'PictureBox65
         '
@@ -915,7 +885,7 @@ Partial Class Form1
         Me.PictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox65.TabIndex = 65
         Me.PictureBox65.TabStop = False
-        Me.PictureBox65.Visible = False
+        Me.PictureBox65.Tag = "pictureBoxes"
         '
         'PictureBox66
         '
@@ -927,7 +897,7 @@ Partial Class Form1
         Me.PictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox66.TabIndex = 64
         Me.PictureBox66.TabStop = False
-        Me.PictureBox66.Visible = False
+        Me.PictureBox66.Tag = "pictureBoxes"
         '
         'PictureBox67
         '
@@ -939,7 +909,7 @@ Partial Class Form1
         Me.PictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox67.TabIndex = 63
         Me.PictureBox67.TabStop = False
-        Me.PictureBox67.Visible = False
+        Me.PictureBox67.Tag = "pictureBoxes"
         '
         'PictureBox68
         '
@@ -951,7 +921,7 @@ Partial Class Form1
         Me.PictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox68.TabIndex = 62
         Me.PictureBox68.TabStop = False
-        Me.PictureBox68.Visible = False
+        Me.PictureBox68.Tag = "pictureBoxes"
         '
         'PictureBox69
         '
@@ -963,7 +933,7 @@ Partial Class Form1
         Me.PictureBox69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox69.TabIndex = 61
         Me.PictureBox69.TabStop = False
-        Me.PictureBox69.Visible = False
+        Me.PictureBox69.Tag = "pictureBoxes"
         '
         'PictureBox70
         '
@@ -975,7 +945,7 @@ Partial Class Form1
         Me.PictureBox70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox70.TabIndex = 60
         Me.PictureBox70.TabStop = False
-        Me.PictureBox70.Visible = False
+        Me.PictureBox70.Tag = "pictureBoxes"
         '
         'PictureBox71
         '
@@ -987,7 +957,7 @@ Partial Class Form1
         Me.PictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox71.TabIndex = 79
         Me.PictureBox71.TabStop = False
-        Me.PictureBox71.Visible = False
+        Me.PictureBox71.Tag = "pictureBoxes"
         '
         'PictureBox72
         '
@@ -999,7 +969,7 @@ Partial Class Form1
         Me.PictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox72.TabIndex = 78
         Me.PictureBox72.TabStop = False
-        Me.PictureBox72.Visible = False
+        Me.PictureBox72.Tag = "pictureBoxes"
         '
         'PictureBox73
         '
@@ -1011,7 +981,7 @@ Partial Class Form1
         Me.PictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox73.TabIndex = 77
         Me.PictureBox73.TabStop = False
-        Me.PictureBox73.Visible = False
+        Me.PictureBox73.Tag = "pictureBoxes"
         '
         'PictureBox74
         '
@@ -1023,7 +993,7 @@ Partial Class Form1
         Me.PictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox74.TabIndex = 76
         Me.PictureBox74.TabStop = False
-        Me.PictureBox74.Visible = False
+        Me.PictureBox74.Tag = "pictureBoxes"
         '
         'PictureBox75
         '
@@ -1035,7 +1005,7 @@ Partial Class Form1
         Me.PictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox75.TabIndex = 75
         Me.PictureBox75.TabStop = False
-        Me.PictureBox75.Visible = False
+        Me.PictureBox75.Tag = "pictureBoxes"
         '
         'PictureBox76
         '
@@ -1047,7 +1017,7 @@ Partial Class Form1
         Me.PictureBox76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox76.TabIndex = 74
         Me.PictureBox76.TabStop = False
-        Me.PictureBox76.Visible = False
+        Me.PictureBox76.Tag = "pictureBoxes"
         '
         'PictureBox77
         '
@@ -1059,7 +1029,7 @@ Partial Class Form1
         Me.PictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox77.TabIndex = 73
         Me.PictureBox77.TabStop = False
-        Me.PictureBox77.Visible = False
+        Me.PictureBox77.Tag = "pictureBoxes"
         '
         'PictureBox78
         '
@@ -1071,7 +1041,7 @@ Partial Class Form1
         Me.PictureBox78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox78.TabIndex = 72
         Me.PictureBox78.TabStop = False
-        Me.PictureBox78.Visible = False
+        Me.PictureBox78.Tag = "pictureBoxes"
         '
         'PictureBox79
         '
@@ -1083,7 +1053,7 @@ Partial Class Form1
         Me.PictureBox79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox79.TabIndex = 71
         Me.PictureBox79.TabStop = False
-        Me.PictureBox79.Visible = False
+        Me.PictureBox79.Tag = "pictureBoxes"
         '
         'PictureBox80
         '
@@ -1095,7 +1065,7 @@ Partial Class Form1
         Me.PictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox80.TabIndex = 70
         Me.PictureBox80.TabStop = False
-        Me.PictureBox80.Visible = False
+        Me.PictureBox80.Tag = "pictureBoxes"
         '
         'PictureBox81
         '
@@ -1107,7 +1077,7 @@ Partial Class Form1
         Me.PictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox81.TabIndex = 89
         Me.PictureBox81.TabStop = False
-        Me.PictureBox81.Visible = False
+        Me.PictureBox81.Tag = "pictureBoxes"
         '
         'PictureBox82
         '
@@ -1119,7 +1089,7 @@ Partial Class Form1
         Me.PictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox82.TabIndex = 88
         Me.PictureBox82.TabStop = False
-        Me.PictureBox82.Visible = False
+        Me.PictureBox82.Tag = "pictureBoxes"
         '
         'PictureBox83
         '
@@ -1131,7 +1101,7 @@ Partial Class Form1
         Me.PictureBox83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox83.TabIndex = 87
         Me.PictureBox83.TabStop = False
-        Me.PictureBox83.Visible = False
+        Me.PictureBox83.Tag = "pictureBoxes"
         '
         'PictureBox84
         '
@@ -1143,7 +1113,7 @@ Partial Class Form1
         Me.PictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox84.TabIndex = 86
         Me.PictureBox84.TabStop = False
-        Me.PictureBox84.Visible = False
+        Me.PictureBox84.Tag = "pictureBoxes"
         '
         'PictureBox85
         '
@@ -1155,7 +1125,7 @@ Partial Class Form1
         Me.PictureBox85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox85.TabIndex = 85
         Me.PictureBox85.TabStop = False
-        Me.PictureBox85.Visible = False
+        Me.PictureBox85.Tag = "pictureBoxes"
         '
         'PictureBox86
         '
@@ -1167,7 +1137,7 @@ Partial Class Form1
         Me.PictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox86.TabIndex = 84
         Me.PictureBox86.TabStop = False
-        Me.PictureBox86.Visible = False
+        Me.PictureBox86.Tag = "pictureBoxes"
         '
         'PictureBox87
         '
@@ -1179,7 +1149,7 @@ Partial Class Form1
         Me.PictureBox87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox87.TabIndex = 83
         Me.PictureBox87.TabStop = False
-        Me.PictureBox87.Visible = False
+        Me.PictureBox87.Tag = "pictureBoxes"
         '
         'PictureBox88
         '
@@ -1191,7 +1161,7 @@ Partial Class Form1
         Me.PictureBox88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox88.TabIndex = 82
         Me.PictureBox88.TabStop = False
-        Me.PictureBox88.Visible = False
+        Me.PictureBox88.Tag = "pictureBoxes"
         '
         'PictureBox89
         '
@@ -1203,7 +1173,7 @@ Partial Class Form1
         Me.PictureBox89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox89.TabIndex = 81
         Me.PictureBox89.TabStop = False
-        Me.PictureBox89.Visible = False
+        Me.PictureBox89.Tag = "pictureBoxes"
         '
         'PictureBox90
         '
@@ -1215,7 +1185,7 @@ Partial Class Form1
         Me.PictureBox90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox90.TabIndex = 80
         Me.PictureBox90.TabStop = False
-        Me.PictureBox90.Visible = False
+        Me.PictureBox90.Tag = "pictureBoxes"
         '
         'PictureBox91
         '
@@ -1227,7 +1197,7 @@ Partial Class Form1
         Me.PictureBox91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox91.TabIndex = 99
         Me.PictureBox91.TabStop = False
-        Me.PictureBox91.Visible = False
+        Me.PictureBox91.Tag = "pictureBoxes"
         '
         'PictureBox92
         '
@@ -1239,7 +1209,7 @@ Partial Class Form1
         Me.PictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox92.TabIndex = 98
         Me.PictureBox92.TabStop = False
-        Me.PictureBox92.Visible = False
+        Me.PictureBox92.Tag = "pictureBoxes"
         '
         'PictureBox93
         '
@@ -1251,7 +1221,7 @@ Partial Class Form1
         Me.PictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox93.TabIndex = 97
         Me.PictureBox93.TabStop = False
-        Me.PictureBox93.Visible = False
+        Me.PictureBox93.Tag = "pictureBoxes"
         '
         'PictureBox94
         '
@@ -1263,7 +1233,7 @@ Partial Class Form1
         Me.PictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox94.TabIndex = 96
         Me.PictureBox94.TabStop = False
-        Me.PictureBox94.Visible = False
+        Me.PictureBox94.Tag = "pictureBoxes"
         '
         'PictureBox95
         '
@@ -1275,7 +1245,7 @@ Partial Class Form1
         Me.PictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox95.TabIndex = 95
         Me.PictureBox95.TabStop = False
-        Me.PictureBox95.Visible = False
+        Me.PictureBox95.Tag = "pictureBoxes"
         '
         'PictureBox96
         '
@@ -1287,7 +1257,7 @@ Partial Class Form1
         Me.PictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox96.TabIndex = 94
         Me.PictureBox96.TabStop = False
-        Me.PictureBox96.Visible = False
+        Me.PictureBox96.Tag = "pictureBoxes"
         '
         'PictureBox97
         '
@@ -1299,7 +1269,7 @@ Partial Class Form1
         Me.PictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox97.TabIndex = 93
         Me.PictureBox97.TabStop = False
-        Me.PictureBox97.Visible = False
+        Me.PictureBox97.Tag = "pictureBoxes"
         '
         'PictureBox98
         '
@@ -1311,7 +1281,7 @@ Partial Class Form1
         Me.PictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox98.TabIndex = 92
         Me.PictureBox98.TabStop = False
-        Me.PictureBox98.Visible = False
+        Me.PictureBox98.Tag = "pictureBoxes"
         '
         'PictureBox99
         '
@@ -1323,7 +1293,7 @@ Partial Class Form1
         Me.PictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox99.TabIndex = 91
         Me.PictureBox99.TabStop = False
-        Me.PictureBox99.Visible = False
+        Me.PictureBox99.Tag = "pictureBoxes"
         '
         'PictureBox100
         '
@@ -1335,7 +1305,7 @@ Partial Class Form1
         Me.PictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox100.TabIndex = 90
         Me.PictureBox100.TabStop = False
-        Me.PictureBox100.Visible = False
+        Me.PictureBox100.Tag = "pictureBoxes"
         '
         'PictureBox1
         '
@@ -1347,8 +1317,7 @@ Partial Class Form1
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 109
         Me.PictureBox1.TabStop = False
-        Me.PictureBox1.Tag = "1"
-        Me.PictureBox1.Visible = False
+        Me.PictureBox1.Tag = "pictureBoxes"
         '
         'PictureBox2
         '
@@ -1360,7 +1329,7 @@ Partial Class Form1
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 108
         Me.PictureBox2.TabStop = False
-        Me.PictureBox2.Visible = False
+        Me.PictureBox2.Tag = "pictureBoxes"
         '
         'PictureBox3
         '
@@ -1372,8 +1341,7 @@ Partial Class Form1
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 107
         Me.PictureBox3.TabStop = False
-        Me.PictureBox3.Tag = "3"
-        Me.PictureBox3.Visible = False
+        Me.PictureBox3.Tag = "pictureBoxes"
         '
         'PictureBox4
         '
@@ -1385,8 +1353,7 @@ Partial Class Form1
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 106
         Me.PictureBox4.TabStop = False
-        Me.PictureBox4.Tag = "4"
-        Me.PictureBox4.Visible = False
+        Me.PictureBox4.Tag = "pictureBoxes"
         '
         'PictureBox5
         '
@@ -1398,8 +1365,7 @@ Partial Class Form1
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 105
         Me.PictureBox5.TabStop = False
-        Me.PictureBox5.Tag = "5"
-        Me.PictureBox5.Visible = False
+        Me.PictureBox5.Tag = "pictureBoxes"
         '
         'PictureBox6
         '
@@ -1411,8 +1377,7 @@ Partial Class Form1
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 104
         Me.PictureBox6.TabStop = False
-        Me.PictureBox6.Tag = "6"
-        Me.PictureBox6.Visible = False
+        Me.PictureBox6.Tag = "pictureBoxes"
         '
         'PictureBox7
         '
@@ -1424,8 +1389,7 @@ Partial Class Form1
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 103
         Me.PictureBox7.TabStop = False
-        Me.PictureBox7.Tag = "7"
-        Me.PictureBox7.Visible = False
+        Me.PictureBox7.Tag = "pictureBoxes"
         '
         'PictureBox8
         '
@@ -1437,8 +1401,7 @@ Partial Class Form1
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 102
         Me.PictureBox8.TabStop = False
-        Me.PictureBox8.Tag = "8"
-        Me.PictureBox8.Visible = False
+        Me.PictureBox8.Tag = "pictureBoxes"
         '
         'PictureBox9
         '
@@ -1450,8 +1413,7 @@ Partial Class Form1
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 101
         Me.PictureBox9.TabStop = False
-        Me.PictureBox9.Tag = "9"
-        Me.PictureBox9.Visible = False
+        Me.PictureBox9.Tag = "pictureBoxes"
         '
         'PictureBox10
         '
@@ -1463,8 +1425,7 @@ Partial Class Form1
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 100
         Me.PictureBox10.TabStop = False
-        Me.PictureBox10.Tag = "10"
-        Me.PictureBox10.Visible = False
+        Me.PictureBox10.Tag = "pictureBoxes"
         '
         'btnStart
         '
