@@ -136,6 +136,7 @@ Partial Class Form1
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1564,11 +1565,21 @@ Partial Class Form1
         Me.Label11.TabIndex = 123
         Me.Label11.Text = "Label11"
         '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(148, 676)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(45, 13)
+        Me.Label12.TabIndex = 124
+        Me.Label12.Text = "Label12"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(577, 711)
+        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label7)
@@ -1905,4 +1916,5 @@ Partial Class Form1
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
 End Class

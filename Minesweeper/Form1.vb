@@ -11,8 +11,13 @@
     Dim canStart As Boolean
     Dim rnd As New Random
     Dim i(9) As Integer
-    Dim picBox As String
+    Dim type As Integer
     Dim bombCount As Integer = 0
+    Dim hasStarted As Boolean = False
+    Dim bombsFlagged As Integer
+    Dim flagsUsed As Integer
+    Dim grid(,) As Integer = New Integer(9, 9) {{1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}
+
 
     Sub RightClick(sender As Object, e As MouseEventArgs, pictureBox As PictureBox, timesClicked As Integer, isFlagged As Boolean, isNumber As Boolean)
         timesClicked = timesClicked + 1
@@ -36,6 +41,354 @@
                     isFlagged = False
                 End If
             End If
+        End If
+    End Sub
+
+    Sub showBombs()
+        If isBomb(1) = True Then
+
+            PictureBox1.Image = My.Resources.Bomb
+        End If
+        If isBomb(2) = True Then
+
+            PictureBox2.Image = My.Resources.Bomb
+        End If
+        If isBomb(3) = True Then
+
+            PictureBox3.Image = My.Resources.Bomb
+        End If
+        If isBomb(4) = True Then
+
+            PictureBox4.Image = My.Resources.Bomb
+        End If
+        If isBomb(5) = True Then
+
+            PictureBox5.Image = My.Resources.Bomb
+        End If
+        If isBomb(6) = True Then
+
+            PictureBox6.Image = My.Resources.Bomb
+        End If
+        If isBomb(7) = True Then
+
+            PictureBox7.Image = My.Resources.Bomb
+        End If
+        If isBomb(8) = True Then
+
+            PictureBox8.Image = My.Resources.Bomb
+        End If
+        If isBomb(9) = True Then
+
+            PictureBox9.Image = My.Resources.Bomb
+        End If
+        If isBomb(10) = True Then
+
+            PictureBox10.Image = My.Resources.Bomb
+        End If
+        If isBomb(11) = True Then
+
+            PictureBox11.Image = My.Resources.Bomb
+        End If
+        If isBomb(12) = True Then
+
+            PictureBox12.Image = My.Resources.Bomb
+        End If
+        If isBomb(13) = True Then
+
+            PictureBox13.Image = My.Resources.Bomb
+        End If
+        If isBomb(14) = True Then
+
+            PictureBox14.Image = My.Resources.Bomb
+        End If
+        If isBomb(15) = True Then
+
+            PictureBox15.Image = My.Resources.Bomb
+        End If
+        If isBomb(16) = True Then
+
+            PictureBox16.Image = My.Resources.Bomb
+        End If
+        If isBomb(17) = True Then
+
+            PictureBox17.Image = My.Resources.Bomb
+        End If
+        If isBomb(18) = True Then
+
+            PictureBox18.Image = My.Resources.Bomb
+        End If
+        If isBomb(19) = True Then
+
+            PictureBox19.Image = My.Resources.Bomb
+        End If
+        If isBomb(20) = True Then
+
+            PictureBox20.Image = My.Resources.Bomb
+        End If
+        If isBomb(21) = True Then
+
+            PictureBox21.Image = My.Resources.Bomb
+        End If
+        If isBomb(22) = True Then
+
+            PictureBox22.Image = My.Resources.Bomb
+        End If
+        If isBomb(23) = True Then
+
+            PictureBox23.Image = My.Resources.Bomb
+        End If
+        If isBomb(24) = True Then
+
+            PictureBox24.Image = My.Resources.Bomb
+        End If
+        If isBomb(25) = True Then
+
+            PictureBox25.Image = My.Resources.Bomb
+        End If
+        If isBomb(26) = True Then
+            PictureBox26.Image = My.Resources.Bomb
+        End If
+        If isBomb(27) = True Then
+
+            PictureBox27.Image = My.Resources.Bomb
+        End If
+        If isBomb(28) = True Then
+
+            PictureBox28.Image = My.Resources.Bomb
+        End If
+        If isBomb(29) = True Then
+
+            PictureBox29.Image = My.Resources.Bomb
+        End If
+        If isBomb(30) = True Then
+
+            PictureBox30.Image = My.Resources.Bomb
+        End If
+        If isBomb(31) = True Then
+
+            PictureBox31.Image = My.Resources.Bomb
+        End If
+        If isBomb(32) = True Then
+
+            PictureBox32.Image = My.Resources.Bomb
+        End If
+        If isBomb(33) = True Then
+
+            PictureBox33.Image = My.Resources.Bomb
+        End If
+        If isBomb(34) = True Then
+
+            PictureBox34.Image = My.Resources.Bomb
+        End If
+        If isBomb(35) = True Then
+
+            PictureBox35.Image = My.Resources.Bomb
+        End If
+        If isBomb(36) = True Then
+
+            PictureBox36.Image = My.Resources.Bomb
+        End If
+        If isBomb(37) = True Then
+
+            PictureBox37.Image = My.Resources.Bomb
+        End If
+        If isBomb(38) = True Then
+
+            PictureBox38.Image = My.Resources.Bomb
+        End If
+        If isBomb(39) = True Then
+
+            PictureBox39.Image = My.Resources.Bomb
+        End If
+        If isBomb(40) = True Then
+
+            PictureBox40.Image = My.Resources.Bomb
+        End If
+        If isBomb(41) = True Then
+
+            PictureBox41.Image = My.Resources.Bomb
+        End If
+        If isBomb(42) = True Then
+
+            PictureBox42.Image = My.Resources.Bomb
+        End If
+        If isBomb(43) = True Then
+            PictureBox43.Image = My.Resources.Bomb
+        End If
+        If isBomb(44) = True Then
+
+            PictureBox44.Image = My.Resources.Bomb
+        End If
+        If isBomb(45) = True Then
+
+            PictureBox45.Image = My.Resources.Bomb
+        End If
+        If isBomb(46) = True Then
+
+            PictureBox46.Image = My.Resources.Bomb
+        End If
+        If isBomb(47) = True Then
+
+            PictureBox47.Image = My.Resources.Bomb
+        End If
+        If isBomb(48) = True Then
+            PictureBox48.Image = My.Resources.Bomb
+        End If
+        If isBomb(49) = True Then
+            PictureBox49.Image = My.Resources.Bomb
+        End If
+        If isBomb(50) = True Then
+            PictureBox50.Image = My.Resources.Bomb
+        End If
+        If isBomb(51) = True Then
+            PictureBox51.Image = My.Resources.Bomb
+        End If
+        If isBomb(52) = True Then
+            PictureBox52.Image = My.Resources.Bomb
+        End If
+        If isBomb(53) = True Then
+            PictureBox53.Image = My.Resources.Bomb
+        End If
+        If isBomb(54) = True Then
+            PictureBox54.Image = My.Resources.Bomb
+        End If
+        If isBomb(55) = True Then
+            PictureBox55.Image = My.Resources.Bomb
+        End If
+        If isBomb(56) = True Then
+            PictureBox56.Image = My.Resources.Bomb
+        End If
+        If isBomb(57) = True Then
+            PictureBox57.Image = My.Resources.Bomb
+        End If
+        If isBomb(58) = True Then
+            PictureBox58.Image = My.Resources.Bomb
+        End If
+        If isBomb(59) = True Then
+            PictureBox59.Image = My.Resources.Bomb
+        End If
+        If isBomb(60) = True Then
+            PictureBox60.Image = My.Resources.Bomb
+        End If
+        If isBomb(61) = True Then
+            PictureBox61.Image = My.Resources.Bomb
+        End If
+        If isBomb(62) = True Then
+            PictureBox62.Image = My.Resources.Bomb
+        End If
+        If isBomb(63) = True Then
+            PictureBox63.Image = My.Resources.Bomb
+        End If
+        If isBomb(64) = True Then
+            PictureBox64.Image = My.Resources.Bomb
+        End If
+        If isBomb(65) = True Then
+            PictureBox65.Image = My.Resources.Bomb
+        End If
+        If isBomb(66) = True Then
+            PictureBox66.Image = My.Resources.Bomb
+        End If
+        If isBomb(67) = True Then
+            PictureBox67.Image = My.Resources.Bomb
+        End If
+        If isBomb(68) = True Then
+            PictureBox68.Image = My.Resources.Bomb
+        End If
+        If isBomb(69) = True Then
+            PictureBox69.Image = My.Resources.Bomb
+        End If
+        If isBomb(70) = True Then
+            PictureBox70.Image = My.Resources.Bomb
+        End If
+        If isBomb(71) = True Then
+            PictureBox71.Image = My.Resources.Bomb
+        End If
+        If isBomb(72) = True Then
+            PictureBox72.Image = My.Resources.Bomb
+        End If
+        If isBomb(73) = True Then
+            PictureBox73.Image = My.Resources.Bomb
+        End If
+        If isBomb(74) = True Then
+            PictureBox74.Image = My.Resources.Bomb
+        End If
+        If isBomb(75) = True Then
+            PictureBox75.Image = My.Resources.Bomb
+        End If
+        If isBomb(76) = True Then
+            PictureBox76.Image = My.Resources.Bomb
+        End If
+        If isBomb(77) = True Then
+            PictureBox77.Image = My.Resources.Bomb
+        End If
+        If isBomb(78) = True Then
+            PictureBox78.Image = My.Resources.Bomb
+        End If
+        If isBomb(79) = True Then
+            PictureBox79.Image = My.Resources.Bomb
+        End If
+        If isBomb(80) = True Then
+            PictureBox80.Image = My.Resources.Bomb
+        End If
+        If isBomb(81) = True Then
+            PictureBox81.Image = My.Resources.Bomb
+        End If
+        If isBomb(82) = True Then
+            PictureBox82.Image = My.Resources.Bomb
+        End If
+        If isBomb(83) = True Then
+            PictureBox83.Image = My.Resources.Bomb
+        End If
+        If isBomb(84) = True Then
+            PictureBox84.Image = My.Resources.Bomb
+        End If
+        If isBomb(85) = True Then
+            PictureBox85.Image = My.Resources.Bomb
+        End If
+        If isBomb(86) = True Then
+            PictureBox86.Image = My.Resources.Bomb
+        End If
+        If isBomb(87) = True Then
+            PictureBox87.Image = My.Resources.Bomb
+        End If
+        If isBomb(88) = True Then
+            PictureBox88.Image = My.Resources.Bomb
+        End If
+        If isBomb(89) = True Then
+            PictureBox89.Image = My.Resources.Bomb
+        End If
+        If isBomb(90) = True Then
+            PictureBox90.Image = My.Resources.Bomb
+        End If
+        If isBomb(91) = True Then
+            PictureBox91.Image = My.Resources.Bomb
+        End If
+        If isBomb(92) = True Then
+            PictureBox92.Image = My.Resources.Bomb
+        End If
+        If isBomb(93) = True Then
+            PictureBox93.Image = My.Resources.Bomb
+        End If
+        If isBomb(94) = True Then
+            PictureBox94.Image = My.Resources.Bomb
+        End If
+        If isBomb(95) = True Then
+            PictureBox95.Image = My.Resources.Bomb
+        End If
+        If isBomb(96) = True Then
+            PictureBox96.Image = My.Resources.Bomb
+        End If
+        If isBomb(97) = True Then
+            PictureBox97.Image = My.Resources.Bomb
+        End If
+        If isBomb(98) = True Then
+            PictureBox98.Image = My.Resources.Bomb
+        End If
+        If isBomb(99) = True Then
+            PictureBox99.Image = My.Resources.Bomb
+        End If
+        If isBomb(100) = True Then
+            PictureBox100.Image = My.Resources.Bomb
         End If
     End Sub
 
@@ -85,352 +438,479 @@
         isBomb(i(9)) = True
 
         If isBomb(1) = True Then
-
+            grid(0, 0) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(2) = True Then
-
+            grid(0, 1) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(3) = True Then
-
+            grid(0, 2) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(4) = True Then
-
+            grid(0, 3) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(5) = True Then
-
+            grid(0, 4) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(6) = True Then
-
+            grid(0, 5) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(7) = True Then
-
+            grid(0, 6) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(8) = True Then
-
+            grid(0, 7) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(9) = True Then
-
+            grid(0, 8) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(10) = True Then
-
+            grid(0, 9) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(11) = True Then
-
+            grid(1, 0) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(12) = True Then
-
+            grid(1, 1) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(13) = True Then
-
+            grid(1, 2) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(14) = True Then
-
+            grid(1, 3) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(15) = True Then
-
+            grid(1, 4) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(16) = True Then
-
+            grid(1, 5) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(17) = True Then
-
+            grid(1, 6) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(18) = True Then
-
+            grid(1, 7) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(19) = True Then
-
+            grid(1, 8) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(20) = True Then
-
+            grid(1, 9) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(21) = True Then
-
+            grid(2, 0) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(22) = True Then
-
+            grid(2, 1) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(23) = True Then
-
+            grid(2, 2) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(24) = True Then
-
+            grid(2, 3) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(25) = True Then
-
+            grid(2, 4) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(26) = True Then
+            grid(2, 5) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(27) = True Then
-
+            grid(2, 6) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(28) = True Then
-
+            grid(2, 7) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(29) = True Then
-
+            grid(2, 8) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(30) = True Then
-
+            grid(2, 9) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(31) = True Then
-
+            grid(3, 0) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(32) = True Then
-
+            grid(3, 1) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(33) = True Then
-
+            grid(3, 2) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(34) = True Then
-
+            grid(3, 3) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(35) = True Then
-
+            grid(3, 4) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(36) = True Then
-
+            grid(3, 5) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(37) = True Then
-
+            grid(3, 6) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(38) = True Then
-
+            grid(3, 7) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(39) = True Then
-
+            grid(3, 8) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(40) = True Then
-
+            grid(3, 9) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(41) = True Then
-
+            grid(4, 0) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(42) = True Then
-
+            grid(4, 1) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(43) = True Then
+            grid(4, 2) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(44) = True Then
-
+            grid(4, 3) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(45) = True Then
-
+            grid(4, 4) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(46) = True Then
-
+            grid(4, 5) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(47) = True Then
-
+            grid(4, 6) = 9
             bombCount = bombCount + 1
         End If
         If isBomb(48) = True Then
             bombCount = bombCount + 1
+            grid(4, 7) = 9
         End If
         If isBomb(49) = True Then
             bombCount = bombCount + 1
+            grid(4, 8) = 9
         End If
         If isBomb(50) = True Then
             bombCount = bombCount + 1
+            grid(4, 9) = 9
         End If
         If isBomb(51) = True Then
             bombCount = bombCount + 1
+            grid(5, 0) = 9
         End If
         If isBomb(52) = True Then
             bombCount = bombCount + 1
+            grid(5, 1) = 9
         End If
         If isBomb(53) = True Then
             bombCount = bombCount + 1
+            grid(5, 2) = 9
         End If
         If isBomb(54) = True Then
             bombCount = bombCount + 1
+            grid(5, 3) = 9
         End If
         If isBomb(55) = True Then
             bombCount = bombCount + 1
+            grid(5, 4) = 9
         End If
         If isBomb(56) = True Then
             bombCount = bombCount + 1
+            grid(5, 5) = 9
         End If
         If isBomb(57) = True Then
             bombCount = bombCount + 1
+            grid(5, 6) = 9
         End If
         If isBomb(58) = True Then
             bombCount = bombCount + 1
+            grid(5, 7) = 9
         End If
         If isBomb(59) = True Then
             bombCount = bombCount + 1
+            grid(5, 8) = 9
         End If
         If isBomb(60) = True Then
             bombCount = bombCount + 1
+            grid(5, 9) = 9
         End If
         If isBomb(61) = True Then
             bombCount = bombCount + 1
+            grid(6, 0) = 9
         End If
         If isBomb(62) = True Then
             bombCount = bombCount + 1
+            grid(6, 1) = 9
         End If
         If isBomb(63) = True Then
             bombCount = bombCount + 1
+            grid(6, 2) = 9
         End If
         If isBomb(64) = True Then
             bombCount = bombCount + 1
+            grid(6, 3) = 9
         End If
         If isBomb(65) = True Then
             bombCount = bombCount + 1
+            grid(6, 4) = 9
         End If
         If isBomb(66) = True Then
             bombCount = bombCount + 1
+            grid(6, 5) = 9
         End If
         If isBomb(67) = True Then
             bombCount = bombCount + 1
+            grid(6, 6) = 9
         End If
         If isBomb(68) = True Then
             bombCount = bombCount + 1
+            grid(6, 7) = 9
         End If
         If isBomb(69) = True Then
             bombCount = bombCount + 1
+            grid(6, 8) = 9
         End If
         If isBomb(70) = True Then
             bombCount = bombCount + 1
+            grid(6, 9) = 9
         End If
         If isBomb(71) = True Then
             bombCount = bombCount + 1
+            grid(7, 0) = 9
         End If
         If isBomb(72) = True Then
             bombCount = bombCount + 1
+            grid(7, 1) = 9
         End If
         If isBomb(73) = True Then
             bombCount = bombCount + 1
+            grid(7, 2) = 9
         End If
         If isBomb(74) = True Then
             bombCount = bombCount + 1
+            grid(7, 3) = 9
         End If
         If isBomb(75) = True Then
             bombCount = bombCount + 1
+            grid(7, 4) = 9
         End If
         If isBomb(76) = True Then
             bombCount = bombCount + 1
+            grid(7, 5) = 9
         End If
         If isBomb(77) = True Then
             bombCount = bombCount + 1
+            grid(7, 6) = 9
         End If
         If isBomb(78) = True Then
             bombCount = bombCount + 1
+            grid(7, 7) = 9
         End If
         If isBomb(79) = True Then
             bombCount = bombCount + 1
+            grid(7, 4) = 9
         End If
         If isBomb(80) = True Then
             bombCount = bombCount + 1
+            grid(7, 9) = 9
         End If
         If isBomb(81) = True Then
             bombCount = bombCount + 1
+            grid(8, 0) = 9
         End If
         If isBomb(82) = True Then
             bombCount = bombCount + 1
+            grid(8, 1) = 9
         End If
         If isBomb(83) = True Then
             bombCount = bombCount + 1
+            grid(0, 4) = 9
         End If
         If isBomb(84) = True Then
             bombCount = bombCount + 1
+            grid(8, 3) = 9
         End If
         If isBomb(85) = True Then
             bombCount = bombCount + 1
+            grid(8, 4) = 9
         End If
         If isBomb(86) = True Then
             bombCount = bombCount + 1
+            grid(8, 5) = 9
         End If
         If isBomb(87) = True Then
             bombCount = bombCount + 1
+            grid(8, 6) = 9
         End If
         If isBomb(88) = True Then
             bombCount = bombCount + 1
+            grid(8, 7) = 9
         End If
         If isBomb(89) = True Then
             bombCount = bombCount + 1
+            grid(8, 8) = 9
         End If
         If isBomb(90) = True Then
             bombCount = bombCount + 1
+            grid(8, 9) = 9
         End If
         If isBomb(91) = True Then
             bombCount = bombCount + 1
+            grid(9, 0) = 9
         End If
         If isBomb(92) = True Then
             bombCount = bombCount + 1
+            grid(9, 1) = 9
         End If
         If isBomb(93) = True Then
             bombCount = bombCount + 1
+            grid(9, 2) = 9
         End If
         If isBomb(94) = True Then
             bombCount = bombCount + 1
+            grid(9, 3) = 9
         End If
         If isBomb(95) = True Then
             bombCount = bombCount + 1
+            grid(9, 4) = 9
         End If
         If isBomb(96) = True Then
             bombCount = bombCount + 1
+            grid(9, 5) = 9
         End If
         If isBomb(97) = True Then
             bombCount = bombCount + 1
+            grid(9, 6) = 9
         End If
         If isBomb(98) = True Then
             bombCount = bombCount + 1
+            grid(9, 7) = 9
         End If
         If isBomb(99) = True Then
             bombCount = bombCount + 1
+            grid(9, 8) = 9
         End If
         If isBomb(100) = True Then
             bombCount = bombCount + 1
+            grid(9, 9) = 9
         End If
+
         Label11.Text = bombCount
+        hasStarted = True
     End Sub
+
+    Sub floodFill(grid As Integer(,), sr As Integer, sc As Integer, type As Integer, newType As Integer)
+        If grid(sr, sc) = newType Then
+            Return
+        End If
+        fill(grid, sr, sc, type, newType)
+    End Sub
+
+    Sub fill(grid As Integer(,), sr As Integer, sc As Integer, type As Integer, newType As Integer)
+
+        If sr < 0 OrElse sc < 0 OrElse sr >= 8 OrElse sc >= 8 OrElse grid(sr, sc) <> type Then
+            Return
+        End If
+
+        grid(sr, sc) = newType
+        fill(grid, sr - 1, sc, type, newType)
+        fill(grid, sr + 1, sc, type, newType)
+        fill(grid, sr, sc - 1, type, newType)
+        fill(grid, sr, sc + 1, type, newType)
+    End Sub
+
+
+
+    Overloads Sub update()
+        If grid(0, 0) = 2 Then
+            PictureBox1.BackColor = Color.White
+            Label12.Text = grid(0, 0)
+        End If
+        If grid(0, 1) = 2 Then
+            PictureBox2.BackColor = Color.White
+        End If
+        If grid(0, 2) = 2 Then
+            PictureBox3.BackColor = Color.White
+        End If
+        If grid(0, 3) = 2 Then
+            PictureBox4.BackColor = Color.White
+        End If
+        If grid(0, 4) = 2 Then
+            PictureBox5.BackColor = Color.White
+        End If
+        If grid(0, 5) = 2 Then
+            PictureBox6.BackColor = Color.White
+        End If
+        If grid(0, 6) = 2 Then
+            PictureBox7.BackColor = Color.White
+        End If
+        If grid(0, 7) = 2 Then
+            PictureBox8.BackColor = Color.White
+        End If
+        If grid(0, 8) = 2 Then
+            PictureBox9.BackColor = Color.White
+        End If
+        If grid(0, 9) = 2 Then
+            PictureBox10.BackColor = Color.White
+        End If
+        If grid(1, 0) = 2 Then
+            PictureBox10.BackColor = Color.White
+        End If
+        If grid(1, 1) = 2 Then
+            PictureBox10.BackColor = Color.White
+        End If
+        If grid(1, 2) = 2 Then
+            PictureBox10.BackColor = Color.White
+        End If
+        If grid(0, 9) = 2 Then
+            PictureBox10.BackColor = Color.White
+        End If
+        Label12.Text = grid(0, 0)
+    End Sub
+
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Dim iExit As DialogResult
         iExit = MessageBox.Show("Are you sure you want to exit?", "Minesweeper", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
@@ -441,104 +921,273 @@
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         canStart = True
-        GenerateBomb()
+
+        If hasStarted = False Then
+            GenerateBomb()
+        End If
+
     End Sub
 
     Private Sub PictureBox1_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox1.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(1) = timesClicked(1) + 1
+            RightClick(sender, e, PictureBox1, timesClicked(1), isFlagged(1), isNumber(1))
+            update()
         End If
-        RightClick(sender, e, PictureBox1, timesClicked(1), isFlagged(1), isNumber(1))
+
+        If canStart = True Then
+            If e.Button = MouseButtons.Left Then
+                If isBomb(1) = False Then
+                    PictureBox1.BackColor = Color.White
+                    floodFill(grid, 0, 0, 1, 2)
+                    update()
+                End If
+                If isBomb(1) = True Then
+                    showBombs()
+                End If
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox2_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox2.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(2) = timesClicked(2) + 1
+            RightClick(sender, e, PictureBox2, timesClicked(2), isFlagged(2), isNumber(2))
         End If
-        RightClick(sender, e, PictureBox2, timesClicked(2), isFlagged(2), isNumber(2))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(2) = False Then
+                PictureBox2.BackColor = Color.White
+                floodFill(grid, 0, 1, 1, 2)
+                update()
+            End If
+            If isBomb(2) = True Then
+                showBombs()
+            End If
+        End If
+
     End Sub
 
     Private Sub PictureBox3_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox3.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(3) = timesClicked(3) + 1
+            RightClick(sender, e, PictureBox3, timesClicked(3), isFlagged(3), isNumber(3))
         End If
-        RightClick(sender, e, PictureBox3, timesClicked(3), isFlagged(3), isNumber(3))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(3) = False Then
+                PictureBox3.BackColor = Color.White
+                floodFill(grid, 0, 2, 1, 2)
+                update()
+            End If
+            If isBomb(3) = True Then
+                showBombs()
+            End If
+        End If
+
     End Sub
 
     Private Sub PictureBox4_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox4.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(4) = timesClicked(4) + 1
+            RightClick(sender, e, PictureBox4, timesClicked(4), isFlagged(4), isNumber(4))
         End If
-        RightClick(sender, e, PictureBox4, timesClicked(4), isFlagged(4), isNumber(4))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(4) = False Then
+                PictureBox4.BackColor = Color.White
+                floodFill(grid, 0, 3, 1, 2)
+                update()
+            End If
+            If isBomb(4) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox5_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox5.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(5) = timesClicked(5) + 1
+            RightClick(sender, e, PictureBox5, timesClicked(5), isFlagged(5), isNumber(5))
         End If
-        RightClick(sender, e, PictureBox5, timesClicked(5), isFlagged(5), isNumber(5))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(5) = False Then
+                PictureBox5.BackColor = Color.White
+                floodFill(grid, 0, 4, 1, 2)
+                update()
+            End If
+            If isBomb(5) = True Then
+                showBombs()
+            End If
+        End If
+
     End Sub
 
     Private Sub PictureBox6_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox6.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(6) = timesClicked(6) + 1
+            RightClick(sender, e, PictureBox6, timesClicked(6), isFlagged(6), isNumber(6))
         End If
-        RightClick(sender, e, PictureBox6, timesClicked(6), isFlagged(6), isNumber(6))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(6) = False Then
+                PictureBox6.BackColor = Color.White
+                floodFill(grid, 0, 5, 1, 2)
+                update()
+            End If
+            If isBomb(6) = True Then
+                showBombs()
+            End If
+        End If
+
     End Sub
     Private Sub PictureBox7_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox7.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(7) = timesClicked(7) + 1
+            RightClick(sender, e, PictureBox7, timesClicked(7), isFlagged(7), isNumber(7))
         End If
-        RightClick(sender, e, PictureBox7, timesClicked(7), isFlagged(7), isNumber(7))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(7) = False Then
+                PictureBox7.BackColor = Color.White
+                floodFill(grid, 0, 6, 1, 2)
+                update()
+            End If
+            If isBomb(7) = True Then
+                showBombs()
+            End If
+        End If
+
     End Sub
 
     Private Sub PictureBox8_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox8.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(8) = timesClicked(8) + 1
+            RightClick(sender, e, PictureBox8, timesClicked(8), isFlagged(8), isNumber(8))
         End If
-        RightClick(sender, e, PictureBox8, timesClicked(8), isFlagged(8), isNumber(8))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(8) = False Then
+                PictureBox8.BackColor = Color.White
+                floodFill(grid, 0, 7, 1, 2)
+                update()
+            End If
+            If isBomb(8) = True Then
+                showBombs()
+            End If
+        End If
+
     End Sub
 
     Private Sub PictureBox9_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox9.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(9) = timesClicked(9) + 1
+            RightClick(sender, e, PictureBox9, timesClicked(9), isFlagged(9), isNumber(9))
         End If
-        RightClick(sender, e, PictureBox9, timesClicked(9), isFlagged(9), isNumber(9))
+
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(9) = False Then
+                PictureBox9.BackColor = Color.White
+                floodFill(grid, 0, 8, 1, 2)
+                update()
+            End If
+            If isBomb(9) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox10_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox10.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(10) = timesClicked(10) + 1
+            RightClick(sender, e, PictureBox10, timesClicked(10), isFlagged(10), isNumber(10))
         End If
-        RightClick(sender, e, PictureBox10, timesClicked(10), isFlagged(10), isNumber(10))
+
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(9) = False Then
+                PictureBox10.BackColor = Color.White
+                floodFill(grid, 0, 9, 1, 2)
+                update()
+            End If
+            If isBomb(9) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox11_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox11.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(11) = timesClicked(11) + 1
+            RightClick(sender, e, PictureBox11, timesClicked(11), isFlagged(11), isNumber(11))
         End If
-        RightClick(sender, e, PictureBox11, timesClicked(11), isFlagged(11), isNumber(11))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(9) = False Then
+                PictureBox11.BackColor = Color.White
+                floodFill(grid, 1, 0, 1, 2)
+                update()
+            End If
+            If isBomb(9) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox12_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox12.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(12) = timesClicked(12) + 1
+            RightClick(sender, e, PictureBox12, timesClicked(12), isFlagged(12), isNumber(12))
         End If
-        RightClick(sender, e, PictureBox12, timesClicked(12), isFlagged(12), isNumber(12))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(9) = False Then
+                PictureBox12.BackColor = Color.White
+                floodFill(grid, 1, 1, 1, 2)
+                update()
+            End If
+            If isBomb(9) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox13_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox13.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(13) = timesClicked(13) + 1
+            RightClick(sender, e, PictureBox13, timesClicked(13), isFlagged(13), isNumber(13))
         End If
-        RightClick(sender, e, PictureBox13, timesClicked(13), isFlagged(13), isNumber(13))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(9) = False Then
+                PictureBox13.BackColor = Color.White
+                floodFill(grid, 1, 2, 1, 2)
+                update()
+            End If
+            If isBomb(9) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox14_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox14.MouseDown
         If e.Button = MouseButtons.Right Then
             timesClicked(14) = timesClicked(14) + 1
+            RightClick(sender, e, PictureBox14, timesClicked(14), isFlagged(14), isNumber(14))
         End If
-        RightClick(sender, e, PictureBox14, timesClicked(14), isFlagged(14), isNumber(14))
+
+        If e.Button = MouseButtons.Left Then
+            If isBomb(9) = False Then
+                PictureBox11.BackColor = Color.White
+                floodFill(grid, 1, 3, 1, 2)
+                update()
+            End If
+            If isBomb(9) = True Then
+                showBombs()
+            End If
+        End If
     End Sub
 
     Private Sub PictureBox15_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox15.MouseDown
